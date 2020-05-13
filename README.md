@@ -1,21 +1,16 @@
-# Gatsby + Netlify CMS Starter
+# NH Proposal Generator
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/df323891-3174-4904-a1df-d86fbe051f80/deploy-status)](https://app.netlify.com/sites/nh-proposal-gen/deploys)
 
-**Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
-
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://hungry-saha-c402bb.netlify.app/)**.
+This repo contains an example proposal website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://hungry-saha-c402bb.netlify.app/)**.
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
 ## Features
 
-- A simple landing page with blog functionality built with Netlify CMS
-- Editabe Pages: Landing, About, Product, Blog-Collection and Contact page with Netlify Form support
-- Create Blog posts from Netlify CMS
-- Tags: Separate page for posts under each tag
+- A simple landing page built with Netlify CMS
+- Editabe Pages
 - Basic directory organization
-- Uses Bulma for styling, but size is reduced by `purge-css-plugin`
 - Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
 - Uses `gatsby-image` with Netlify-CMS preview support
 - Separate components for everything
@@ -30,21 +25,23 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 - [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 - [Netlify CLI](https://github.com/netlify/cli)
 
-## Getting Started (Recommended)
+## Getting Started (Recommended) ✅
 
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [One Click Hugo CMS](https://github.com/netlify-templates/one-click-hugo-cms)). Use the button below to build and deploy your own copy of the repository:
+Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of this repository:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/gatsby-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/northhighland/proposal-gen&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
+After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template.
 
-### Access Locally
+Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete.
 
-Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
+Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
+
+### Access and Run Locally
+
+Pulldown a local copy of this repo
 
 ```terminal
-git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-cd [REPO_NAME]
 yarn
 netlify dev # or ntl dev
 ```
@@ -58,48 +55,24 @@ npm run build
 netlify dev # or ntl dev
 ```
 
-### Media Libraries (installed, but optional)
-
-Media Libraries have been included in this starter as a default. If you are not planning to use `Uploadcare` or `Cloudinary` in your project, you **can** remove them from module import and registration in `src/cms/cms.js`. Here is an example of the lines to comment or remove them your project.
-
-```javascript
-import CMS from 'netlify-cms-app';
-// import uploadcare from 'netlify-cms-media-library-uploadcare'
-// import cloudinary from 'netlify-cms-media-library-cloudinary'
-
-import IndexPagePreview from './preview-templates/IndexPagePreview';
-
-// CMS.registerMediaLibrary(uploadcare);
-// CMS.registerMediaLibrary(cloudinary);
-
-CMS.registerPreviewTemplate('index', IndexPagePreview);
-```
-
-Note: Don't forget to also remove them from `package.json` and `yarn.lock` / `package-lock.json` using `yarn` or `npm`. During the build netlify-cms-app will bundle the media libraries as well, having them removed will save you build time.
-Example:
-
-```terminal
-yarn remove netlify-cms-media-library-uploadcare
-```
-
-OR
-
-```terminal
-yarn remove netlify-cms-media-library-cloudinary
-```
-
 ## Getting Started (Without Netlify)
 
 ```terminal
-gatsby new [SITE_DIRECTORY_NAME] https://github.com/netlify-templates/gatsby-starter-netlify-cms/
-cd [SITE_DIRECTORY_NAME]
-npm run build
-npm run serve
+yarn
+yarn develop
 ```
 
 ### Setting up the CMS
 
 Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
+
+### Netlify Commands
+
+`ntl init` to run through setup
+
+`netlify open --admin` opens netlify admin
+
+`netlify open --site` opens site url
 
 ## Debugging
 
@@ -115,21 +88,13 @@ npm install --global --production windows-build-tools
 
 MacOS users might also encounter some errors, for more info check [node-gyp](https://github.com/nodejs/node-gyp). We recommend using the latest stable node version.
 
-## Purgecss
+### Purgecss
 
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
 
-## New Site (in progress)
+#### To Do
 
-### Run Site Locally
-
-`yarn install`
-`yarn develop`
-
-### Netlify Commands
-
-`ntl init` to run through setup
-
-`netlify open --admin` opens netlify admin
-
-`netlify open --site` opens site url
+- finish fixing CSS/Bootstrap issues
+- portfolio pages
+- contact email
+- mobile view fixes if needed

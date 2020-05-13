@@ -11,7 +11,11 @@ const Footer = class extends React.Component {
               Copyright © North Highland 2020
             </div>
             <div class="col-lg-4 my-3 my-lg-0">
-              <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/company/northhighland/" target="new">
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.linkedin.com/company/northhighland/"
+                target="new"
+              >
                 <img
                   src={linkedin}
                   alt="linkedin"
@@ -20,7 +24,10 @@ const Footer = class extends React.Component {
               </a>
             </div>
             <div class="col-lg-4 text-lg-right">
-              <a class="mr-3" href="https://www.northhighland.com/privacy-policy">
+              <a
+                class="mr-3"
+                href="https://www.northhighland.com/privacy-policy"
+              >
                 Privacy Policy
               </a>
             </div>

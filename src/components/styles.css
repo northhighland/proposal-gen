@@ -10937,3 +10937,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   width: 6.5em;
 }
+
+h4.my-3 {
+  white-space: pre-line;
+}

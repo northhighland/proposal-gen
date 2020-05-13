@@ -73,7 +73,6 @@ solutions:
   text1: |-
     Solve greenfield problems a.k.a. designing / building brand new systems 
 
-
     Build high quality custom applications 
 
     Design applications for hybrid device markets

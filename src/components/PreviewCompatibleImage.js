@@ -8,12 +8,24 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
 
   if (!!image && !!image.childImageSharp) {
     return (
-      <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} className="pod-img" />
+      <Img
+        style={imageStyle}
+        fluid={image.childImageSharp.fluid}
+        alt={alt}
+        className="pod-img"
+      />
     )
   }
 
   if (!!childImageSharp) {
-    return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} className="pod-img" />
+    return (
+      <Img
+        style={imageStyle}
+        fluid={childImageSharp.fluid}
+        alt={alt}
+        className="pod-img"
+      />
+    )
   }
 
   if (!!image && typeof image === 'string')
