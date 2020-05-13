@@ -10844,6 +10844,7 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  white-space: pre-line;
 }
 .team-member img {
   width: 14rem;
