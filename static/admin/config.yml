@@ -1,0 +1,185 @@
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - file: 'src/pages/index.md'
+        label: 'Landing Page'
+        name: 'index'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'index-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Subheading, name: subheading, widget: string }
+          - { label: Image, name: image, widget: image }
+          - {
+              label: Mainpitch,
+              name: mainpitch,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Description, name: description, widget: text },
+                  { label: MVP Text, name: mvptext, widget: string },
+                ],
+            }
+          - {
+              label: Pods,
+              name: intro,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Pods,
+                    name: pods,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Title, name: title, widget: text },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: How,
+              name: how,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: description, name: description, widget: text },
+                  {
+                    label: Team Member Heading 1,
+                    name: teamMemberHeading1,
+                    widget: string,
+                  },
+                  {
+                    label: Team Member Text 1,
+                    name: teamMemberText1,
+                    widget: text,
+                  },
+                  {
+                    label: Team Member Heading 2,
+                    name: teamMemberHeading2,
+                    widget: string,
+                  },
+                  {
+                    label: Team Member Text 2,
+                    name: teamMemberText2,
+                    widget: text,
+                  },
+                  {
+                    label: Team Member Heading 3,
+                    name: teamMemberHeading3,
+                    widget: string,
+                  },
+                  {
+                    label: Team Member Text 3,
+                    name: teamMemberText3,
+                    widget: text,
+                  },
+                ],
+            }
+          - {
+              label: solutions,
+              name: solutions,
+              widget: object,
+              fields:
+                [
+                  { label: heading, name: heading, widget: string },
+                  { label: description, name: description, widget: string },
+                  { label: text 1, name: text1, widget: text },
+                  { label: text 2, name: text2, widget: text },
+                  { label: text 3, name: text3, widget: text },
+                ],
+            }
+          - {
+              label: Team Cost,
+              name: teamcost,
+              widget: object,
+              fields:
+                [
+                  { label: heading, name: heading, widget: string },
+                  { label: description, name: description, widget: text },
+                  { label: table Name, name: tableName, widget: string },
+                ],
+            }
+          - {
+              label: Team Table,
+              name: teamtable,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Table Rows,
+                    name: tablerows,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Role, name: role, widget: text },
+                        {
+                          label: Role Description,
+                          name: roledescription,
+                          widget: text,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: About,
+              name: about,
+              widget: object,
+              fields:
+                [
+                  { label: heading, name: heading, widget: string },
+                  { label: description, name: description, widget: text },
+                  {
+                    label: timeline head 1,
+                    name: timelinehead1,
+                    widget: string,
+                  },
+                  { label: timeline body 1, name: timelinebody1, widget: text },
+                  {
+                    label: timeline head 2,
+                    name: timelinehead2,
+                    widget: string,
+                  },
+                  { label: timeline body 2, name: timelinebody2, widget: text },
+                  {
+                    label: timeline head 3,
+                    name: timelinehead3,
+                    widget: string,
+                  },
+                  { label: timeline body 3, name: timelinebody3, widget: text },
+                  { label: start, name: start, widget: string },
+                ],
+            }
+          - {
+              label: 'Contact',
+              name: 'contact',
+              widget: 'object',
+              fields:
+                [
+                  { label: 'Heading', name: 'heading', widget: 'string' },
+                  { label: 'Contact', name: 'body', widget: 'markdown' },
+                ],
+            }
