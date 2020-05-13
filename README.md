@@ -1,6 +1,6 @@
 # Gatsby + Netlify CMS Starter
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/df323891-3174-4904-a1df-d86fbe051f80/deploy-status)](https://app.netlify.com/sites/nh-proposal-gen/deploys)
 
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
@@ -118,3 +118,18 @@ MacOS users might also encounter some errors, for more info check [node-gyp](htt
 ## Purgecss
 
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
+
+## New Site (in progress)
+
+### Run Site Locally
+
+`yarn install`
+`yarn develop`
+
+### Netlify Commands
+
+`ntl init` to run through setup
+
+`netlify open --admin` opens netlify admin
+
+`netlify open --site` opens site url
