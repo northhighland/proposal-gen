@@ -139,7 +139,10 @@ teamtable:
         functionality, performance, reliability, stability and compatibility
         with other systems.
 about:
-  start: Let's Get Started!
+  start: |-
+    Let's 
+    Get 
+    Started!
   heading: About Us
   timelinebody1: North Highland's customized, blended team approach applies the
     right combination of skills and experience to achieve your goals. Our
