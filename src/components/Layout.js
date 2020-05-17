@@ -1,8 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './styles.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './styles.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 //import '../js/scripts.js'
@@ -28,6 +29,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navbar />
       <div>{children}</div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js"></script>
       <Footer />
     </div>
   )
