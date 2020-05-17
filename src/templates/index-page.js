@@ -60,7 +60,7 @@ export const IndexPageTemplate = ({
         <Features gridItems={intro.pods} />
       </div>
     </section>
-    <section className="page-section bg-light" id="How">
+    <section className="page-section bg-light" id="how">
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">{how.heading}</h2>

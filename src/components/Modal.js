@@ -13,6 +13,7 @@ import globalcpgFull from '../assets/img/portfolio/globalcpgFull.jpg'
 import globalcpgThumb from '../assets/img/portfolio/globalcpgThumb.jpg'
 import stratasysFull from '../assets/img/portfolio/stratasysFull.jpg'
 import stratasysThumb from '../assets/img/portfolio/stratasysThumb.jpg'
+/* eslint-disable */
 
 const LivePreviewExample = () => {
   const [modal1, setModal1] = useState(false)
