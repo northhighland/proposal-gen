@@ -7,6 +7,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "@popperjs/core": "^2.4.0",
+    "bootstrap": "^4.5.0",
     "bulma": "^0.8.0",
     "gatsby": "^2.20.35",
     "gatsby-image": "^2.3.5",
@@ -27,9 +29,11 @@
     "netlify-cms-app": "^2.9.6",
     "node-sass": "^4.14.0",
     "prop-types": "^15.6.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
+    "react-popper": "^2.2.3",
+    "reactstrap": "^8.4.1",
     "uuid": "^7.0.0"
   },
   "keywords": [

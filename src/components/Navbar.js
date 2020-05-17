@@ -1,96 +1,55 @@
-import React from 'react'
-//import { Link } from 'gatsby'
+import React, { useState } from 'react'
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap'
 import logo from '../img/nh-logo.png'
 /* eslint-disable */
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
+const Example = (props) => {
+  const [isOpen, setIsOpen] = useState(false)
 
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
+  const toggle = () => setIsOpen(!isOpen)
 
-  render() {
-    return (
-      <nav
-        className="navbar navbar-expand-lg navbar-dark fixed-top"
-        id="mainNav"
-      >
+  return (
+    <div>
+      <Navbar color="dark" dark expand="lg" className="fixed-top" id="mainNav">
         <div className="container">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            <img src={logo} alt="logo" />
-          </a>
-          <button
-            className="navbar-toggler navbar-toggler-right"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            Menu<i className="fas fa-bars ml-1"></i>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav text-uppercase ml-auto">
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#MVP">
-                  MVP
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#How">
-                  How
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#Solutions">
-                  Solutions
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#portfolio">
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#team">
-                  Team and Cost
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#about">
-                  About Us
-                </a>
-              </li>
-            </ul>
-          </div>
+          <NavbarBrand href="/" className="js-scroll-trigger">
+            <img src={logo} alt="logo" className="nh-logo" />
+          </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar id="navbarResponsive">
+            <Nav className="navbar-nav text-uppercase ml-auto" navbar>
+              <NavItem className="nav-link js-scroll-trigger">
+                <NavLink href="#MVP">MVP</NavLink>
+              </NavItem>
+              <NavItem className="nav-link js-scroll-trigger">
+                <NavLink href="#how">How</NavLink>
+              </NavItem>
+              <NavItem className="nav-link js-scroll-trigger">
+                <NavLink href="#how">Solutions</NavLink>
+              </NavItem>
+              <NavItem className="nav-link js-scroll-trigger">
+                <NavLink href="#portfolio">Portfolio</NavLink>
+              </NavItem>
+              <NavItem className="nav-link js-scroll-trigger">
+                <NavLink href="#team">Team and Cost</NavLink>
+              </NavItem>
+              <NavItem className="nav-link js-scroll-trigger">
+                <NavLink href="#about">About Us</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
         </div>
-      </nav>
-    )
-  }
+      </Navbar>
+    </div>
+  )
 }
 
-export default Navbar
+export default Example

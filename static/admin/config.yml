@@ -170,7 +170,7 @@ collections:
                     widget: string,
                   },
                   { label: timeline body 3, name: timelinebody3, widget: text },
-                  { label: start, name: start, widget: string },
+                  { label: start, name: start, widget: text },
                 ],
             }
           - {
