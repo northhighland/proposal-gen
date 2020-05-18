@@ -222,7 +222,7 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">{contact.heading}</h2>
-          <h3 className="section-subheading text-muted">{contact.body}</h3>
+            <h3 className="section-subheading text-muted">For questions please contact <a href="mailto:james.prolizo@northhighland.com?subject=PODs: Engineering at North Highland">James Prolizo</a></h3>
         </div>
       </div>
     </section>
