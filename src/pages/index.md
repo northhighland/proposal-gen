@@ -11,13 +11,13 @@ mainpitch:
   mvptext: "North Highland's Pods are:"
 intro:
   pods:
-    - image: /img/users1.jpeg
+    - image: /img/cogs.png
       title: Self-Managed
       text: 'Our self-sustained Pods have vast expertise working on a variety of
         projects in different environments, showing high flexibility and
         adaptability, but also accountability, owning the entire process from
         DevOps to QA, thus requiring little to no oversight.   '
-    - image: /img/chess.jpeg
+    - image: /img/do.png
       title: More than "just do"
       text:
         "We don't just complete tasks, we also make your business our business:
@@ -25,7 +25,7 @@ intro:
         to provide critical input in backlog development, helping you to
         prioritize user stories, streamline workflows and ensure maximal value
         for your business."
-    - image: /img/bulb.jpeg
+    - image: /img/idea.png
       title: Tried and Tested
       text: Our Pods are homogenous units with established ways of working which
         inspire confidence and ensure immediate readiness. We apply our combined
