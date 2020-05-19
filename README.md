@@ -39,7 +39,9 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete.
 
-Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
+Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS. In Netlify go to Settings > Identity > External Providers > Add Provider and choose GitHub.
+
+Now when you go to your new site's address `/admin` you should be able to choose "Continue with GitHub" and log in.
 
 ### Access and Run Locally
 
