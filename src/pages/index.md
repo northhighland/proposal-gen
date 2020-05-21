@@ -5,33 +5,19 @@ subheading: WHERE URGENCY MEETS EXPERIENCE
 image: /img/header-bg.jpg
 mainpitch:
   title: MVP
-  description: Clients have an opportunity to ramp up internal digital capacity
-    through the integration of MVPs (Most Valuable Pods) to their teams, adding
-    instant speed of delivery, scale, and experience, providing instant value.
+  description: Clients have an opportunity to ramp up internal digital capacity through the integration of MVPs (Most Valuable Pods) to their teams, adding instant speed of delivery, scale and experience, providing instant value.
   mvptext: "North Highland's Pods are:"
 intro:
   pods:
     - image: /img/cogs.png
       title: Self-Managed
-      text: 'Our self-sustained Pods have vast expertise working on a variety of
-        projects in different environments, showing high flexibility and
-        adaptability, but also accountability, owning the entire process from
-        DevOps to QA, thus requiring little to no oversight.   '
+      text: 'Our self-sustained Pods have vast expertise working on a variety of projects in different environments, showing high flexibility and adaptability, but also accountability, owning the entire process from DevOps to QA, thus requiring little to no oversight.'
     - image: /img/do.png
       title: More than "just do"
-      text:
-        "We don't just complete tasks, we also make your business our business:
-        Gaining a rapid understanding of your organizational context allows us
-        to provide critical input in backlog development, helping you to
-        prioritize user stories, streamline workflows and ensure maximal value
-        for your business."
+      text: "We don't just complete tasks, we also make your business our business: Gaining a rapid understanding of your organizational context allows us to provide critical input in backlog development, helping you to prioritize user stories, streamline workflows and ensure maximal value for your business."
     - image: /img/idea.png
       title: Tried and Tested
-      text: Our Pods are homogenous units with established ways of working which
-        inspire confidence and ensure immediate readiness. We apply our combined
-        expertise and leading practices from other industries to your business,
-        helping you to create self-sustaining change, and not consulting
-        dependency.
+      text: Our Pods are homogenous units with established ways of working which inspire confidence and ensure immediate readiness. We apply our combined expertise and leading practices from other industries to your business, helping you to create self-sustaining change, and not consulting dependency.
 how:
   heading: How we do it
   description: We seamlessly integrate with our clients' team(s), plugging into
