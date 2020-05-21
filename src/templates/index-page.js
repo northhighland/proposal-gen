@@ -12,6 +12,7 @@ import how1 from '../img/how/how1.jpg'
 import how2 from '../img/how/how2.jpg'
 import how3 from '../img/how/how3.jpg'
 import Modal from '../components/Modal'
+import Modals from '../components/Modals'
 
 export const IndexPageTemplate = ({
   image,
@@ -19,6 +20,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   solutions,
+  portfolio,
   intro,
   how,
   teamcost,
@@ -145,6 +147,9 @@ export const IndexPageTemplate = ({
         <div className="row">
           <Modal />
         </div>
+        <div className="row">
+          <Modals gridItems={portfolio.portfolioitems} />
+        </div>
       </div>
     </section>
     <section className="page-section" id="team">
@@ -241,6 +246,9 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   how: PropTypes.object,
   solutions: PropTypes.object,
+  portfolio: PropTypes.shape({
+    portfolioitems: PropTypes.array,
+  }),
   description: PropTypes.string,
   intro: PropTypes.shape({
     pods: PropTypes.array,
@@ -266,6 +274,7 @@ const IndexPage = ({ data }) => {
         intro={frontmatter.intro}
         how={frontmatter.how}
         solutions={frontmatter.solutions}
+        portfolio={frontmatter.portfolio}
         teamcost={frontmatter.teamcost}
         teamtable={frontmatter.teamtable}
         about={frontmatter.about}
@@ -344,6 +353,13 @@ export const pageQuery = graphql`
           text1
           text2
           text3
+        }
+        portfolio {
+          portfolioitems {
+            heading
+            subtitle
+            image
+          }
         }
         about {
           heading

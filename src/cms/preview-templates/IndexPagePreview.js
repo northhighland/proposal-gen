@@ -17,6 +17,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         mainpitch={data.mainpitch || {}}
         how={data.how || {}}
         solutions={data.solutions || {}}
+        portfolio={data.portfolioitems || { portfolioitems: [] }}
         teamcost={data.teamcost || {}}
         teamtable={data.teamtable || { tablerows: [] }}
         about={data.about || {}}

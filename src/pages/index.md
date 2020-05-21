@@ -72,6 +72,11 @@ solutions:
     Create e-Commerce Systems 
 
     Prototyping, User Testing, and Iterative Design
+portfolio: 
+  portfolioitems:
+    - heading: Delta
+      subtitle: design build
+      image: /img/idea.png
 teamcost:
   heading: Team and Cost
   description: We spend each day advising our clients to question the ways they

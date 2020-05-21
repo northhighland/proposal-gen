@@ -183,3 +183,22 @@ collections:
                   { label: 'Contact', name: 'body', widget: 'markdown' },
                 ],
             }
+          - {
+              label: portfolio,
+              name: portfolio,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Modal Rows,
+                    name: portfolioitems,
+                    widget: list,
+                    fields:
+                      [
+                        { label: heading, name: heading, widget: text },
+                        { label: subtitle, name: subtitle, widget: text },
+                        { label: Image, name: image, widget: image },
+                      ],
+                  },
+                ],
+            }
