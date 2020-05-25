@@ -77,21 +77,41 @@ portfolio:
     - heading: Delta
       subtitle: Design + Build
       image: /img/deltaThumb.jpg
-    - heading: B2B e-Commerce Platform
-      subtitle: Design + Build
-      image: /img/globalThumb.jpg
+      imageFull: /img/deltaFull.jpg
+      challengeheader: Challenge
+      challengetext:
+        Delta wanted to develop a web experience that showcased its fresh
+        approach to storytelling, enabling key audiences to a quicker, more
+        intuitive way to find, publish, and share news about Delta and the
+        airline industry.
+      approachheader: Approach
+      approachtext:
+        In collaboration with the Delta team, North Highland created the
+        vision for the “News Hub,” a digital news site with multi-platform
+      resultheader: Result
+      resulttext:
+        North Highland used Agile development to produce first prototype
+        within 15 weeks—with a full site launch in market soon after. The
+        launch of the News Hub drove a 108% increase in site visits. View
     - heading: Aramark
-      subtitle: Architecture + Implementation
+      subtitle: Design + Build
       image: /img/aramarkThumb.jpg
-    - heading: Delta
-      subtitle: Design + Build
-      image: /img/deltaThumb.jpg
-    - heading: B2B e-Commerce Platform
-      subtitle: Design + Build
-      image: /img/deltaThumb.jpg
-    - heading: Aramark
-      subtitle: Architecture + Implementation
-      image: /img/deltaThumb.jpg
+      imageFull: /img/aramarkFull.jpg
+      challengeheader: Challenge
+      challengetext:
+        Delta wanted to develop a web experience that showcased its fresh
+        approach to storytelling, enabling key audiences to a quicker, more
+        intuitive way to find, publish, and share news about Delta and the
+        airline industry.sfadsfsdfasdf
+      approachheader: Approach
+      approachtext:
+        In collaboration with the Delta team, North Highland created the
+        vision for the “News Hub,” a digital news site with multi-platform
+      resultheader: Result
+      resulttext:
+        North Highland used Agile development to produce first prototype
+        within 15 weeks—with a full site launch in market soon after. The
+        launch of the News Hub drove a 108% increase in site visits. View
 teamcost:
   heading: Team and Cost
   description: We spend each day advising our clients to question the ways they

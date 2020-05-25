@@ -363,6 +363,19 @@ export const pageQuery = graphql`
                 }
               }
             }
+            imageFull {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            challengeheader
+            challengetext
+            approachheader
+            approachtext
+            resultheader
+            resulttext
           }
         }
         about {
