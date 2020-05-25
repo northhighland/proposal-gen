@@ -37,15 +37,13 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
-      }}
-    >
+      }}>
       <div className="container">
         <div className="masthead-subheading">{title}</div>
         <div className="masthead-heading text-uppercase">{subheading}</div>
         <a
           className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-          href="#MVP"
-        >
+          href="#MVP">
           find out more&nbsp;
         </a>
       </div>
@@ -147,7 +145,7 @@ export const IndexPageTemplate = ({
         <div className="row">
           <Modal />
         </div>
-        <div className="row">
+        <div>
           <Modals gridItems={portfolio.portfolioitems} />
         </div>
       </div>
@@ -358,7 +356,13 @@ export const pageQuery = graphql`
           portfolioitems {
             heading
             subtitle
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
         about {

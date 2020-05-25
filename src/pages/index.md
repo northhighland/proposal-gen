@@ -11,7 +11,7 @@ intro:
   pods:
     - image: /img/cogs.png
       title: Self-Managed
-      text: 'Our self-sustained Pods have vast expertise working on a variety of projects in different environments, showing high flexibility and adaptability, but also accountability, owning the entire process from DevOps to QA, thus requiring little to no oversight.'
+      text: "Our self-sustained Pods have vast expertise working on a variety of projects in different environments, showing high flexibility and adaptability, but also accountability, owning the entire process from DevOps to QA, thus requiring little to no oversight."
     - image: /img/do.png
       title: More than "just do"
       text: "We don't just complete tasks, we also make your business our business: Gaining a rapid understanding of your organizational context allows us to provide critical input in backlog development, helping you to prioritize user stories, streamline workflows and ensure maximal value for your business."
@@ -55,7 +55,7 @@ how:
     TypeScript: 2 - 3.5
 solutions:
   heading: Solutions
-  description: 'We partner with our clients to:'
+  description: "We partner with our clients to:"
   text1: |-
     Solve greenfield problems a.k.a. designing / building brand new systems 
 
@@ -72,11 +72,26 @@ solutions:
     Create e-Commerce Systems 
 
     Prototyping, User Testing, and Iterative Design
-portfolio: 
+portfolio:
   portfolioitems:
     - heading: Delta
-      subtitle: design build
-      image: /img/idea.png
+      subtitle: Design + Build
+      image: /img/deltaThumb.jpg
+    - heading: B2B e-Commerce Platform
+      subtitle: Design + Build
+      image: /img/globalThumb.jpg
+    - heading: Aramark
+      subtitle: Architecture + Implementation
+      image: /img/aramarkThumb.jpg
+    - heading: Delta
+      subtitle: Design + Build
+      image: /img/deltaThumb.jpg
+    - heading: B2B e-Commerce Platform
+      subtitle: Design + Build
+      image: /img/deltaThumb.jpg
+    - heading: Aramark
+      subtitle: Architecture + Implementation
+      image: /img/deltaThumb.jpg
 teamcost:
   heading: Team and Cost
   description: We spend each day advising our clients to question the ways they
@@ -140,12 +155,12 @@ about:
     value-based approach, client-focused strategies, and industry expertise help
     clients challenge convention with solutions tailored to the needs of the
     project.
-  timelinebody2: 'North Highland adds value across the full spectrum of
+  timelinebody2: "North Highland adds value across the full spectrum of
     consulting, from strategy to delivery. Our strengths reside in our depth of
     capabilities and delivering insights and industry expertise across areas of
     client need: Program & Project Management, Agile Transformation, Strategy,
     People & Change, Experience Design, Data & Analytics, Process and Business
-    Analysis, and Technology.'
+    Analysis, and Technology."
   timelinehead1: Every challenge is unique
   timelinebody3: Everything we do begins and ends with people. The experience we
     create working with you is unique, trusted and collaborative. It is more

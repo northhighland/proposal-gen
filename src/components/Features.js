@@ -10,8 +10,7 @@ const FeatureGrid = ({ gridItems }) => (
           style={{
             width: '240px',
             display: 'inline-block',
-          }}
-        >
+          }}>
           <PreviewCompatibleImage imageInfo={item} />
         </div>
         <h4 className="my-3">{item.title}</h4>

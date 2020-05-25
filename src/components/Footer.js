@@ -14,8 +14,7 @@ const Footer = class extends React.Component {
               <a
                 className="btn btn-dark btn-social mx-2"
                 href="https://www.linkedin.com/company/northhighland/"
-                target="new"
-              >
+                target="new">
                 <img
                   src={linkedin}
                   alt="linkedin"
@@ -26,8 +25,7 @@ const Footer = class extends React.Component {
             <div className="col-lg-4 text-lg-right">
               <a
                 className="mr-3"
-                href="https://www.northhighland.com/privacy-policy"
-              >
+                href="https://www.northhighland.com/privacy-policy">
                 Privacy Policy
               </a>
             </div>

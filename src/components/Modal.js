@@ -99,8 +99,7 @@ const LivePreviewExample = () => {
             <a
               href="https://news.delta.com/"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               news.delta.com
             </a>
             .
