@@ -142,9 +142,9 @@ export const IndexPageTemplate = ({
             Where we've done it before
           </h3>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <Modal />
-        </div>
+        </div> */}
         <div>
           <Modals gridItems={portfolio.portfolioitems} />
         </div>
