@@ -4,13 +4,13 @@ import Img from 'gatsby-image'
 
 const ModalFullImg = ({ imageInfo }) => {
   const imageStyle = { borderRadius: '5px' }
-    const { alt = '', childImageSharp, imageFull } = imageInfo
+  const { alt = '', childImageSharp, imageFull } = imageInfo
 
-    if (!!imageFull && !!imageFull.childImageSharp) {
+  if (!!imageFull && !!imageFull.childImageSharp) {
     return (
       <Img
         style={imageStyle}
-            fluid={imageFull.childImageSharp.fluid}
+        fluid={imageFull.childImageSharp.fluid}
         alt={alt}
         className="img-fluid d-block mx-auto"
       />
@@ -28,11 +28,11 @@ const ModalFullImg = ({ imageInfo }) => {
     )
   }
 
-    if (!!imageFull && typeof imageFull === 'string')
+  if (!!imageFull && typeof imageFull === 'string')
     return (
       <img
         style={imageStyle}
-            src={imageFull}
+        src={imageFull}
         alt={alt}
         className="img-fluid d-block mx-auto"
       />
@@ -45,7 +45,8 @@ ModalFullImg.propTypes = {
   imageInfo: PropTypes.shape({
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
-      imageFull: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
+    imageFull: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+      .isRequired,
     style: PropTypes.object,
   }).isRequired,
 }
