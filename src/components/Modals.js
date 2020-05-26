@@ -11,8 +11,8 @@ function ModalGrid(props) {
   const toggle1 = () => setModal1(!modal1)
 
   return (
-    <Fragment>
-      <div className="row">
+    <div className="row">
+      <Fragment>
         {gridItems.map((item) => (
           <div key={item.heading} className="col-lg-4 col-sm-6 mb-4">
             <div>
@@ -41,11 +41,15 @@ function ModalGrid(props) {
               toggle={toggle1}>
               <ModalHeader toggle={toggle1}>
                 <div className="container">
-                  <div className="row justify-content-center">
+                  <div className="row justify-content-center modal-top">
                     <div className="col-lg-8">
                       <div className="modal-body">
-                        <h2 className="text-uppercase">{item.heading}</h2>
-                        <p className="item-intro text-muted">{item.subtitle}</p>
+                        <h2 className="text-uppercase modal-h2">
+                          {item.heading}
+                        </h2>
+                        <p className="item-intro text-muted modal-p">
+                          {item.subtitle}
+                        </p>
                         <ModalFullImg imageInfo={item} />
                       </div>
                     </div>
@@ -71,8 +75,8 @@ function ModalGrid(props) {
             </Modal>
           </div>
         ))}
-      </div>
-    </Fragment>
+      </Fragment>
+    </div>
   )
 }
 
