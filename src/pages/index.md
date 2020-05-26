@@ -93,6 +93,50 @@ portfolio:
         North Highland used Agile development to produce first prototype
         within 15 weeks—with a full site launch in market soon after. The
         launch of the News Hub drove a 108% increase in site visits. View
+    - heading: B2B e-Commerce Platform
+      subtitle: Design + Build
+      image: /img/globalThumb.jpg
+      imageFull: /img/globalFull.jpg
+      challengeheader: Challenge
+      challengetext:
+        A global oilfield equipment provider needed a faster, automated
+        process for inside salespeople to submit quotes and wanted to
+        introduce a customer facing, self-service portal as well. The client
+        needed to collect all their product related data in one place to
+        ensure consistent quoting.
+      approachheader: Approach
+      approachtext:
+        North Highland started the engagement with a series of Futures
+        workshops to establish a digital vision. The immediate need
+        identified was an e-Commerce platform to speed up the sales cycle
+        and enable self-service for their customers.
+        It was clear that this would have monumental impact on the business
+        this was not just about establishing a digital sales channel, this
+        was about transforming an entire organization to become digitally
+        enabled.
+        Leveraging our service design framework, we developed a current and
+        future state service architecture in co-creation with stakeholders
+        to visualize the changes needed. It helped all stakeholders to
+        connect the dots and highlight high-value areas of focus.
+        To get buy-in from across the organization, we ran a parallel track
+        addressing the service architecture (logistics, fullfillment,
+        Salesforce integration) needed and creating a proof of concept for
+        the customer-facing e-Commerce platform in form of a prototype. The
+        prototype made the vision come to life and gave stakeholders the
+        opportunity to react and provide feedback. It shifted the client's
+        mindset from the anxiety of not knowing to anticipating the changes
+        with excitement. As the service architecture matured the prototype
+        evolved.
+      resultheader: Result
+      resulttext:
+        North Highland used its software development lifecycle to deliver a
+        self-service portal, providing a unique experience for both
+        employees and customer to submit quotes to Salesforce. Portal users
+        can now create over 5,000 different product configurations,
+        visualize final product assembly, and customize shipments.
+        Salespeople can also apply discounts and view commissions per quote.
+        A CMS populated with product data for over 3,000 unique products
+        serves as single source of truth for all product related activities.
     - heading: Aramark
       subtitle: Design + Build
       image: /img/aramarkThumb.jpg
@@ -112,6 +156,82 @@ portfolio:
         North Highland used Agile development to produce first prototype
         within 15 weeks—with a full site launch in market soon after. The
         launch of the News Hub drove a 108% increase in site visits. View
+    - heading: Bank of America
+      subtitle: Transactional Service Model
+      image: /img/boaThumb.jpg
+      imageFull: /img/boaFull.jpg
+      challengeheader: Challenge
+      challengetext:
+        Bank of America needed to upscale its internal capacity creating
+        enhanced web sites and custom print materials, while maximizing cost
+        efficiencies.
+      approachheader: Approach
+      approachtext:
+        North Highland assembled a multi-disciplinary Pod of UI and UX
+        designers, full-stack developers as well as a scrum master to manage
+        various digital and print initiatives in support of Bank of
+        America's team. The North Highland team integrated seamlessly with
+        the client's Marketing function, quickly getting up to speed and
+        delivering high-quality output. The team also proactively seeked
+        opportunities to improve current workflows and share best practices
+        with the client to improve overall delivery performance.
+      resultheader: Result
+      resulttext: North Highland established an order intake process to provide
+        accountability of the end product, while aligning skillsets to
+        efficiently serve the Financial Advisors. We implemented governance
+        and controls to manage scope of work and provide consistent value
+        and the new KPIs provided visibility into creative development. The
+        new service model enhanced the structure of the field marketing
+        department and eliminated onboarding and discovery efforts,
+        resulting in over $100k in savings.
+    - heading: Global CPG
+      subtitle: e-Commerce Strategy + Design
+      image: /img/globalcpgThumb.jpg
+      imageFull: /img/globalcpgFull.jpg
+      challengeheader: Challenge
+      challengetext:
+        Our client was seeking to reimagine its B2B Digital Product Catalog
+        that allows franchises to order products and equipment. The current
+        experience was outdated and cumbersome, causing customers to
+        circumvent the system and place orders manually.
+      approachheader: Approach
+      approachtext:
+        North Highland conducted a survey which garnered more than 800
+        responses. Based on these insights we re-imagined the actual
+        architecture and user flows. After testing these initial concepts,
+        we brought the new concepts to life through fresh clean designs.
+      resultheader: Result
+      resulttext:
+        North Highland was able to eliminate an average of 5 clicks per
+        order, streamlining how customers browse and shop for items, as well
+        as simplifying the checkout process.
+    - heading: Stratasys
+      subtitle: Digital Strategy + Design
+      image: /img/stratasysThumb.jpg
+      imageFull: /img/stratasysFull.jpg
+      challengeheader: Challenge
+      challengetext:
+        The client is a global leader in 3D printing technology that is
+        radically changing the future of manufacturing, medicine, design and
+        education. Yet their website was that of an industrial printer maker
+        from ten years ago. They wanted to take a great leap, transforming
+        their digital experience to that of a brand leader, while creating a
+        significantly better tool for selling what their customers want – 3D
+        solutions, not a lineup of printers.
+      approachheader: Approach
+      approachtext: North Highland partnered with the client’s Digital team to
+        re-platform, reinvent, redesign and relaunch their website in only
+        three months. Our multidisciplinary team conducted a competitive
+        analysis, customer interviews, content audits, and SEO analysis to
+        inform user experience, design and content recommendations. Agile
+        processes and principles were used throughout. The new site
+        reinforces the client’s market authority, differentiates them from
+        existing and emerging competitors, and enhances the platform as a
+        lead generation tool.
+      resultheader: Result
+      resulttext: Through the streamlined user flows and up- and cross-sell
+        opportunities along the sales funnel, Stratasys was able to increase
+        lead generation by 24%.
 teamcost:
   heading: Team and Cost
   description: We spend each day advising our clients to question the ways they

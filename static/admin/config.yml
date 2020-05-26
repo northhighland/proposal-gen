@@ -112,6 +112,60 @@ collections:
                 ],
             }
           - {
+              label: portfolio,
+              name: portfolio,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Portfolio Quals,
+                    name: portfolioitems,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Company Name, name: heading, widget: string },
+                        { label: Work Done, name: subtitle, widget: string },
+                        { label: Qual Thumbnail, name: image, widget: image },
+                        {
+                          label: Qual Main Image,
+                          name: imageFull,
+                          widget: image,
+                        },
+                        {
+                          label: Challenge Header,
+                          name: challengeheader,
+                          widget: string,
+                        },
+                        {
+                          label: Challenge Text,
+                          name: challengetext,
+                          widget: markdown,
+                        },
+                        {
+                          label: Approach Header,
+                          name: approachheader,
+                          widget: string,
+                        },
+                        {
+                          label: Approach Text,
+                          name: approachtext,
+                          widget: markdown,
+                        },
+                        {
+                          label: Result Header,
+                          name: resultheader,
+                          widget: string,
+                        },
+                        {
+                          label: Result Text,
+                          name: resulttext,
+                          widget: markdown,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
               label: Team Cost,
               name: teamcost,
               widget: object,
@@ -181,55 +235,5 @@ collections:
                 [
                   { label: "Heading", name: "heading", widget: "string" },
                   { label: "Contact", name: "body", widget: "markdown" },
-                ],
-            }
-          - {
-              label: portfolio,
-              name: portfolio,
-              widget: object,
-              fields:
-                [
-                  {
-                    label: Modal Rows,
-                    name: portfolioitems,
-                    widget: list,
-                    fields:
-                      [
-                        { label: heading, name: heading, widget: string },
-                        { label: subtitle, name: subtitle, widget: string },
-                        { label: Image, name: image, widget: image },
-                        { label: Image, name: imageFull, widget: image },
-                        {
-                          label: Challenge Header,
-                          name: challengeheader,
-                          widget: string,
-                        },
-                        {
-                          label: Challenge Text,
-                          name: challengetext,
-                          widget: markdown,
-                        },
-                        {
-                          label: Approach Header,
-                          name: approachheader,
-                          widget: string,
-                        },
-                        {
-                          label: Approach Text,
-                          name: approachtext,
-                          widget: markdown,
-                        },
-                        {
-                          label: Result Header,
-                          name: resultheader,
-                          widget: string,
-                        },
-                        {
-                          label: Result Text,
-                          name: resulttext,
-                          widget: markdown,
-                        },
-                      ],
-                  },
                 ],
             }
