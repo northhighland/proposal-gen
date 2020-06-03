@@ -11,10 +11,18 @@ intro:
   pods:
     - image: /img/cogs.png
       title: Self-Managed
-      text: "Our self-sustained Pods have vast expertise working on a variety of projects in different environments, showing high flexibility and adaptability, but also accountability, owning the entire process from DevOps to QA, thus requiring little to no oversight."
+      text: "Our self-sustained Pods have vast expertise working on a variety of
+        projects in different environments, showing high flexibility and
+        adaptability, but also accountability, owning the entire process from
+        DevOps to QA, thus requiring little to no oversight.   "
     - image: /img/do.png
       title: More than "just do"
-      text: "We don't just complete tasks, we also make your business our business: Gaining a rapid understanding of your organizational context allows us to provide critical input in backlog development, helping you to prioritize user stories, streamline workflows and ensure maximal value for your business."
+      text:
+        "We don't just complete tasks, we also make your business our business:
+        Gaining a rapid understanding of your organizational context allows us
+        to provide critical input in backlog development, helping you to
+        prioritize user stories, streamline workflows and ensure maximal value
+        for your business."
     - image: /img/idea.png
       title: Tried and Tested
       text: Our Pods are homogenous units with established ways of working which inspire confidence and ensure immediate readiness. We apply our combined expertise and leading practices from other industries to your business, helping you to create self-sustaining change, and not consulting dependency.
@@ -316,6 +324,7 @@ about:
     “feels different to work with us” and it’s all in the “how”.
 contact:
   heading: Contact Us
-  body: For questions please contact [James
-    Prolizo](mailto:james.prolizo@northhighland.com).
+  body: 'For questions please contact [James
+    Prolizo](<"mailto:james.prolizo@northhighland.com?subject=PODs: Engineering
+    at North Highland">).'
 ---
