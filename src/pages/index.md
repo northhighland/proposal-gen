@@ -13,14 +13,13 @@ intro:
   pods:
     - image: /img/cogs.png
       title: Self-Managed
-      text: 'Our self-sustained Pods have vast expertise working on a variety of
+      text: "Our self-sustained Pods have vast expertise working on a variety of
         projects in different environments, showing high flexibility and
         adaptability, but also accountability, owning the entire process from
-        DevOps to QA, thus requiring little to no oversight.   '
+        DevOps to QA, thus requiring little to no oversight.   "
     - image: /img/do.png
       title: More than "just do"
-      text:
-        "We don't just complete tasks, we also make your business our business:
+      text: "We don't just complete tasks, we also make your business our business:
         Gaining a rapid understanding of your organizational context allows us
         to provide critical input in backlog development, helping you to
         prioritize user stories, streamline workflows and ensure maximal value
@@ -69,7 +68,7 @@ how:
     TypeScript: 2 - 3.5
 solutions:
   heading: Solutions
-  description: 'We partner with our clients to:'
+  description: "We partner with our clients to:"
   text1: |-
     Solve greenfield problems a.k.a. designing / building brand new systems 
 
@@ -100,8 +99,7 @@ teamcost:
 teamtable:
   tablerows:
     - role: Scrum Master
-      roledescription:
-        Serves as a conduit between the Sr. Product Analyst and the
+      roledescription: Serves as a conduit between the Sr. Product Analyst and the
         team. Orchestrates  and coordinates day-to-day activities. Serves as a
         single point-of-contact for all meetings, invites, communications,
         notes/recaps, and next steps. Is the source of truth for engagement
@@ -111,22 +109,19 @@ teamtable:
         Delhaize Product Owner(s) on grooming and prioritizing backlog and
         defining epics.
     - role: Solution Architect
-      roledescription:
-        Advises on the technical architecture that will best support
+      roledescription: Advises on the technical architecture that will best support
         the product through and beyond development; serves as subject matter
         expert on user stories that have technical components. Leverages
         technical expertise throughout the project, and acts as a key partner
         with Ahold Delhaize IT during the Design and Implementation phases.
     - role: Full-stack Developer (2)
-      roledescription:
-        Full stack developer translates user requirements into the
+      roledescription: Full stack developer translates user requirements into the
         overall architecture and implement the new systems. Primary
         responsibilities include designing user interactions on websites,
         developing servers and databases for website functionality and coding
         for mobile platforms.
     - role: UI/UX Designer
-      roledescription:
-        Responsible for creating compelling experiences for users of a
+      roledescription: Responsible for creating compelling experiences for users of a
         product, leveraging user research and workflow analysis. Involved in
         conducting usability testing, creating wire frames, storyboards, site
         maps and screen flows, creating product prototypes, developing usage
@@ -149,12 +144,12 @@ about:
     value-based approach, client-focused strategies, and industry expertise help
     clients challenge convention with solutions tailored to the needs of the
     project.
-  timelinebody2: 'North Highland adds value across the full spectrum of
+  timelinebody2: "North Highland adds value across the full spectrum of
     consulting, from strategy to delivery. Our strengths reside in our depth of
     capabilities and delivering insights and industry expertise across areas of
     client need: Program & Project Management, Agile Transformation, Strategy,
     People & Change, Experience Design, Data & Analytics, Process and Business
-    Analysis, and Technology.'
+    Analysis, and Technology."
   timelinehead1: Every challenge is unique
   timelinebody3: Everything we do begins and ends with people. The experience we
     create working with you is unique, trusted and collaborative. It is more
@@ -170,6 +165,7 @@ about:
     “feels different to work with us” and it’s all in the “how”.
 contact:
   heading: Contact Us
-  body: For questions please contact [James
-    Prolizo](mailto:james.prolizo@northhighland.com).
+  body: 'For questions please contact [James
+    Prolizo](<"mailto:james.prolizo@northhighland.com?subject=PODs: Engineering
+    at North Highland">).'
 ---
