@@ -234,6 +234,6 @@ collections:
               fields:
                 [
                   { label: "Heading", name: "heading", widget: "string" },
-                  { label: "Contact", name: "body", widget: "markdown" },
+                  { label: "Contact", name: "body", widget: "string" },
                 ],
             }

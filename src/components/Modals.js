@@ -40,6 +40,7 @@ function ModalGrid(props) {
               isOpen={modal1}
               toggle={toggle1}>
               <ModalHeader toggle={toggle1}>
+                {console.log(modal1)}
                 <div className="container">
                   <div className="row justify-content-center modal-top">
                     <div className="col-lg-8">

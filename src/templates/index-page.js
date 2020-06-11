@@ -11,7 +11,7 @@ import img3 from '../img/about/img3.jpg'
 import how1 from '../img/how/how1.jpg'
 import how2 from '../img/how/how2.jpg'
 import how3 from '../img/how/how3.jpg'
-import Modal from '../components/Modal'
+//import Modal from '../components/Modal'
 import Modals from '../components/Modals'
 
 export const IndexPageTemplate = ({
@@ -225,12 +225,7 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">{contact.heading}</h2>
-          <h3 className="section-subheading text-muted">
-            For questions please contact{' '}
-            <a href="mailto:james.prolizo@northhighland.com?subject=PODs: Engineering at North Highland">
-              James Prolizo
-            </a>
-          </h3>
+          <h3 className="section-subheading text-muted">{contact.body}</h3>
         </div>
       </div>
     </section>

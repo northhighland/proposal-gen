@@ -324,7 +324,6 @@ about:
     “feels different to work with us” and it’s all in the “how”.
 contact:
   heading: Contact Us
-  body: 'For questions please contact [James
-    Prolizo](<"mailto:james.prolizo@northhighland.com?subject=PODs: Engineering
-    at North Highland">).'
+  body: For questions please contact [James
+    Prolizo](james.prolizo@northhighland.com).  [link](https://www.example.com/my%20great%20page)
 ---
