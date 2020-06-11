@@ -35,15 +35,13 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
-      }}
-    >
+      }}>
       <div className="container">
         <div className="masthead-subheading">{title}</div>
         <div className="masthead-heading text-uppercase">{subheading}</div>
         <a
           className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-          href="#MVP"
-        >
+          href="#MVP">
           find out more&nbsp;
         </a>
       </div>
