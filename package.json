@@ -33,7 +33,7 @@
     "react-helmet": "^6.1.0",
     "react-popper": "^2.2.3",
     "reactstrap": "^8.4.1",
-    "uuid": "^7.0.0",
+    "uuid": "^7.0.0"
   },
   "resolutions": {
     "bl": "^4.0.3",
